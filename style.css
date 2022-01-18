@@ -5,5 +5,90 @@
 }
 
 
+.filter{
+    height: 100vh;
+    /* width: 90vw;
+    margin: 2% auto;
+    border: 2px solid red;
+    top: 30%; */
+    /* border: 2px solid red; */
+    background: linear-gradient(45deg, purple, white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.filter-container{
+    border: 1px solid black;
+    box-shadow: 5px 5px 8px rgb(104, 78, 78);
+    border-radius: 2%;
+    width: 20%;
+    overflow: hidden;
+    /* height: 70%; */
+    /* height: 80%; */
+}
+
+.header{
+    /* border: 2px solid red; */
+    background: linear-gradient(purple, black);
+    color: white;
+    padding: 1% 2%;
+    
+}
+
+.filter-subheading{
+    /* border: 2px solid red; */
+    display: block;
+    margin: 5% 0 2% 0;
+}
+
+.input-filter{
+    background: grey;
+    border: 0;
+    color: white;
+    font-size: 15px;
+    padding: 10px 15px;
+    width: 100%;
+    outline: none;
+    border-radius: 2%;
+    margin: 0 0 2% 0;
+    
+}
+
+.user-list{
+    /* border: 2px solid red; */
+    background: linear-gradient(45deg, purple, white);
+    list-style-type: none;
+    max-height: 450px;
+    overflow-y: auto;
+}
+
+
+.user-list li{
+    /* border: 2px solid red; */
+    display: flex;
+    padding: 1%;
+}
+
+.user-list img{
+    border: 2px solid purple;
+    border-radius: 50%;
+    width: 40%;
+    height: 40%;
+}
+
+.user-information{
+    margin-left: 1%;
+}
+
+.user-information h3{
+    margin-bottom: 2%;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.user-information p{
+    font-size: 14px;
+}
 
 

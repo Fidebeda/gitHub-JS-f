@@ -43,7 +43,7 @@
 }
 
 .input-filter{
-    background: grey;
+    background: purple;
     border: 0;
     color: white;
     font-size: 15px;
@@ -68,6 +68,7 @@
     /* border: 2px solid red; */
     display: flex;
     padding: 1%;
+    border-bottom: 1px dotted rgb(136, 90, 136);
 }
 
 .user-list img{
@@ -90,5 +91,16 @@
 .user-information p{
     font-size: 14px;
 }
+
+.user-list li.hide{
+    display: none;
+}
+
+
+
+
+
+
+
 
 
